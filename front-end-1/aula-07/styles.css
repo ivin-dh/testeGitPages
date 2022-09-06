@@ -1,0 +1,30 @@
+body {
+
+    background-color: #151515;
+
+}
+
+.titulo-primario {
+
+    color: #c8c8c8;
+    font-size: 32px;
+
+}
+
+.lista-principal {
+
+    background-color: #676767;
+
+}
+
+.lista-principal li {
+
+    color: white;
+
+}
+
+.lista-principal .item-importante {
+
+    color: aqua;
+
+}

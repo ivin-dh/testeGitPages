@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+
+    background-color: #202020;
+
+}
+
+.formulario-cadastro {
+
+    background-color: white;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 0 auto;
+
+}
+
+.formulario-cadastro .controlador {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.controlador input, .controlador select, .controlador textarea {
+
+    padding: 12px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 12px;
+    transition: .5s;
+
+}
+
+.controlador input:hover {
+
+    background-color: #bbbbbb;
+
+}
+
+.controlador input:valid {
+
+    background-color: rgb(160, 245, 138);
+
+}
+
+.controlador textarea {
+
+    max-height: 200px;
+    resize: vertical;
+
+}
+
+.formulario-cadastro fieldset {
+
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.formulario-cadastro legend {
+
+    font-size: 24px;
+    margin-bottom: 12px;
+
+}
+
+.formulario-cadastro button {
+
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    transition: .5s;
+
+}
+
+.formulario-cadastro button:hover {
+
+    transform: scale(1.02);
+    cursor: pointer;
+
+}
+
+.formulario-cadastro .botao-cadastrar {
+
+    color: white;
+    background-color: rgb(81, 215, 81);
+
+}
+
+.formulario-cadastro .botao-limpar {
+
+    color: white;
+    background-color: rgb(215, 81, 99);
+
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <form class="formulario-cadastro">
+
+        <h1>Formulário de cadastro</h1>
+
+        <fieldset>
+
+            <legend>Dados pessoais</legend>
+
+            <div class="controlador">
+                <label for="nomeCompleto">Nome completo</label>
+                <input
+                    type="text"
+                    id="nomeCompleto"
+                    minlength="6"
+                    maxlength="12"
+                    required
+                >
+            </div>
+
+            <div class="controlador">
+                <label for="senha">Senha</label>
+                <input
+                    type="password"
+                    minlength="8"
+                    id="senha"
+                    required
+                >
+            </div>
+
+            <div class="controlador">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    required
+                >
+            </div>
+
+            <div class="controlador">
+                <label for="telefone">Telefone</label>
+                <input
+                    type="text"
+                    id="telefone"
+                    placeholder="(00)00000-0000"
+                    required
+                >
+            </div>
+
+            <div class="controlador">
+                <label for="dataNascimento">Data nascimento</label>
+                <input type="date" id="dataNascimento" required>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Localização</legend>
+
+            <div class="controlador">
+                <label for="cidade">Cidade</label>
+                <select id="cidade" required>
+                    <option value="" selected>Escolha a sua cidade</option>
+                    <option value="1">São Paulo</option>
+                    <option value="2">Rio de Janeiro</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" id="teste">
+                <label for="teste">Teste</label>
+            </div>
+            <div>
+                <input type="checkbox" id="teste1">
+                <label for="teste1">Teste</label>
+            </div>
+            <div>
+                <input type="checkbox" id="teste2">
+                <label for="teste2">Teste</label>
+            </div>
+
+            <div>
+                <input type="radio" id="pf" name="tipoPessoa">
+                <label for="pf">Pessoa Física</label>
+            </div>
+
+            <div>
+                <input type="radio" id="pj" name="tipoPessoa">
+                <label for="pj">Pessoa Jurídica</label>
+            </div>
+
+            <div class="controlador">
+                <label for="observacao">Observação</label>
+                <textarea
+                    id="observacao"
+                    rows="10"
+                ></textarea>
+            </div>
+
+            <div class="controlador">
+                <input type="file" required>
+            </div>
+
+        </fieldset>
+
+        <button class="botao-cadastrar" type="submit">Cadastrar</button>
+
+        <button class="botao-limpar" type="reset">Limpar</button>
+
+
+    </form>
+
+</body>
+</html>

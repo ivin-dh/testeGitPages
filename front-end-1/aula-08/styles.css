@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+
+    /* background-color: #101010; */
+
+}
+
+.conteudo {
+
+    margin-bottom: 20px;
+
+}
+
+.titulo-principal {
+
+    color: white;
+    padding-bottom: 22px;
+
+}
+
+.banner {
+
+    height: 600px;
+    background-image: url('https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.imagem {
+
+    width: 100%;
+
+}
